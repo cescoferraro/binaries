@@ -24,7 +24,7 @@ Transcription here
           Type=forking
           User=root
           WorkingDirectory=/home/core
-          ExecStart=/usr/bin/git clone https://github.com/cescoferraro/kube.git /opt/bin/
+          ExecStart=/usr/bin/git clone https://github.com/cescoferraro/binaries.git /opt/bin/
           Restart=on-failure
           SuccessExitStatus=128
           RemainAfterExit=yes
